@@ -1,5 +1,7 @@
 import json
 
+print('hehehe')
+
 with open("animals.json", "r") as read_file:
     data = json.load(read_file)
 
@@ -11,6 +13,3 @@ print('Количество дневных животных =', len(list(diurnal
 
 weight = sorted(data, key=lambda d: d['weight_min'])
 print('Животное с наименьшим весом -', list(weight)[0]['name'])
-
-# hjghjgjhfghchmghj,
-print('hello')
