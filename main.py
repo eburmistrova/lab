@@ -11,3 +11,5 @@ print('Количество дневных животных =', len(list(diurnal
 
 weight = sorted(data, key=lambda d: d['weight_min'])
 print('Животное с наименьшим весом -', list(weight)[0]['name'])
+
+# git commit
